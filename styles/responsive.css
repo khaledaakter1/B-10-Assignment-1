@@ -207,4 +207,65 @@
     margin-bottom: 20px;
 }
 
+/* My current taget */
+.current{
+    width: 100vw;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.current_text{
+    width: 90%;
+    height: auto;
+}
+.current_content{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 25px;
+}
+.current_content>div{
+    width: 80%;
+    height: 200px;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 5px;
+}
+/* My next target */
+.next{
+    width: 100vw;
+    height: auto;
+    margin: 50px auto;
+}
+.next_text{
+    width: 90%;
+    height: auto;
+}
+.next_content{
+    width: 90%;
+    height: auto;
+    row-gap: 20px;
+}
+.next_content>div{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    column-gap: 15px;
+}
+.next_content>div>img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.next_content>div>div{
+    row-gap: 5px;
 }
