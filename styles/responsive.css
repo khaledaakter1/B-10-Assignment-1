@@ -29,7 +29,7 @@
     .p_16{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 400;
         opacity: 0.7;
     }
@@ -55,6 +55,12 @@
         font-size: 20px;
         font-weight: 700;
     }
+    .h3_24_800{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 800;
+    }
     .d_b{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
@@ -66,7 +72,29 @@
         padding: 10px 15px;
         text-decoration: none;    
     }
+    .c_b{
+        font-size: 12px;
+    }
+    .h2_32_w{
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .p_16_w{
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .f_c{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 13px;
+        font-weight: 600;
+    }
     
+    /* start body */
     body{
         width: 100vw;
         height: auto;
@@ -206,7 +234,6 @@
     height: 190px;
     margin-bottom: 20px;
 }
-
 /* My current taget */
 .current{
     width: 100vw;
@@ -268,4 +295,77 @@
 }
 .next_content>div>div{
     row-gap: 5px;
+}
+/* support section */
+.support{
+    width:100vw;
+    height: auto;
+    margin:50px auto;
+    border-radius: 0;
+}
+.support_box{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    row-gap: 30px;
+}
+.support_text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+form{
+    height: 30px;
+}
+.input{
+    width: 70%;
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 5px;
+    padding: 3px 8px;
+    background: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+.submit{
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+    background: #ffffff;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    padding: 4px 8px;
+    font-weight: 600;
+    border: none;
+}
+/* footer section */
+footer{
+    width: 100vw;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0;
+    background: rgba(13, 19, 33, 0.03);
+}
+.victor>a{
+    margin: 5px;
+}
 }

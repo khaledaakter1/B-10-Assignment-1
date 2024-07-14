@@ -57,6 +57,12 @@
     font-size: 24px;
     font-weight: 700;
 }
+.h3_24_800{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
 .d_b{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -72,7 +78,32 @@
     width: 100%;
     height: auto;
 }
-
+.c_b{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-decoration-line: underline;
+}
+.h2_32_w{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.p_16_w{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.f_c{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 *{
     margin: 0;
@@ -222,7 +253,6 @@ header>nav>ul>li>a{
 
 }
 
-/*  */
 /* My current taget */
 .current{
     width: 1140px;
@@ -312,4 +342,78 @@ header>nav>ul>li>a{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+}
+/* support section */
+.support{
+    width: 1140px;
+    height: 314px;
+    margin:100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)),url('../assets/handshake.jpg') ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.support_box{
+    width: 1044px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.support_text{
+    width: 730px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+form{
+    height: 59px;
+}
+.input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+.submit{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: #ffffff;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+/* footer section */
+footer{
+    width: 1440px;
+    height: 100px;
+    margin: auto;
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.victor>a{
+    margin-left: 20px;
 }
