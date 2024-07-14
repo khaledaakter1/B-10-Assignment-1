@@ -11,7 +11,7 @@
     .btn_n{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 600;
         padding: 10px 10px;
         box-sizing: border-box;
@@ -37,13 +37,35 @@
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-family: Azeret Mono;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 600;
         padding: 18px 20px;
         border-radius: 8px;
         background: rgb(13, 19, 33);
     }
-    
+    .h2_32{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .h3_24{
+        color: rgba(13, 19, 33, 0.7);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .d_b{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 12px;
+        font-weight: 600;
+        box-sizing: border-box;
+        border: 1px solid rgb(13, 19, 33);
+        opacity: 0.7;
+        padding: 10px 15px;
+        text-decoration: none;    
+    }
     
     body{
         width: 100vw;
@@ -80,4 +102,109 @@
         align-items: center;
         text-align: center
     }
+    /* why web developer */
+.developer{
+    width: 98vw;
+    height: auto;
+    margin:50px auto 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.developer_box{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+.developer_text{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.developer_content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 40px;
+    padding: 10px 0;
+}
+.developer_content>div{
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px gray;
+}
+.developer_item1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.developer_item2{
+    display: flex;
+    flex-direction: column;
+}
+.developer_item3{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.developer_content>div>img{
+    width: 50%;
+}
+.developer_content>div>div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.developer_content>div>div>span{
+    margin-bottom: 15px;
+}
+/* my inspiration section */
+.inspiration{
+    width: 100vw;
+    height: auto;
+    margin: 50px auto 0;
+    row-gap: 40px;
+}
+.inspiration_text{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.inspiration_video{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration_video>iframe{
+    width: 85%;
+    height: 190px;
+    margin-bottom: 20px;
+}
+
 }

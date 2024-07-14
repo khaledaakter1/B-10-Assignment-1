@@ -1,5 +1,4 @@
 
-
 /* font add  */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Azeret Mono", monospace;*/
@@ -46,8 +45,33 @@
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
-
-
+.h2_32{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.h3_24{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.d_b{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    text-decoration: none;    
+}
+.span{
+    width: 100%;
+    height: auto;
+}
 
 
 *{
@@ -99,5 +123,103 @@ header>nav>ul>li>a{
     text-align: center
 }
 
-/*  */
+/* why web developer */
+.developer{
+    width: 1140px;
+    height: 1395px;
+    margin:100px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.developer_box{
+    width: 946px;
+    height: 1235px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+.developer_text{
+    width: 852px;
+    height: 115px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.developer_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.developer_content>div{
+    padding: 48px;
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.developer_item1{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.developer_item2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.developer_item3{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.developer_content>div>div{
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+}
+/* my inspiration section */
+.inspiration{
+    width: 1140px;
+    height: 600px;
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.inspiration_text{
+    width: 852px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.inspiration_video{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration_video>iframe{
+    border-radius: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px red;
+    outline-offset: 15px;
+    outline: 1px solid rgba(0, 76, 255, 0.2);
 
+}
+
+/*  */
